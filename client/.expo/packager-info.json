@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19003,
+  "packagerPid": 51301,
+  "webpackServerPort": null,
+  "expoServerNgrokUrl": "https://bn-cec.eayllon.client2.exp.direct",
+  "packagerNgrokUrl": "https://packager.bn-cec.eayllon.client2.exp.direct",
+  "ngrokPid": 51309
+}
