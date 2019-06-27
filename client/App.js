@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import config from './config';
+import Button from './components/Button';
 
 export default function App() {
   const [users, setUsers] = useState([]);
@@ -22,10 +23,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      <Text>Users</Text>
-      {users.map(user =>
-        <Text key={user.id}>{user.username}</Text>
-      )}
+      <Button title="button" />
+      <Button title="button" isLoading={true} />
     </View>
   );
 }
