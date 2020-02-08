@@ -4,7 +4,7 @@ category: starter components
 tags: 
 - react
 - react native
-status: complete
+status: complete, ongoing, and discontinued
 twitter: https://twitter.com/relativeread
 ---
 
